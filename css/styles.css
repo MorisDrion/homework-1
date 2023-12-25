@@ -1,0 +1,43 @@
+:root {
+    --color-primary-blue: #2B7FFF;
+    --color-primary-dark-blue: #011C44;
+    --color-primary-white: #FFFFFF;
+}
+/*Base*/
+body {
+    color: var(--color-primary-dark-blue)
+}
+
+ul {
+    list-style: none;
+}
+
+.accent {
+    color: var(--color-primary-blue)
+}
+
+/*Links*/
+p a {
+    text-decoration: underline;
+}
+a {
+    outline: none;
+    text-decoration: none;
+    color: var(--color-primary-dark-blue);
+}
+
+/*Button*/
+.button {
+    color: var(--color-primary-white);
+    background-color: var(--color-primary-blue);
+    width: 219px;
+    height: 53px;
+    border-radius: 32px;
+    border: 0;
+    gap: 10px;
+}
+
+.button:hover {
+    color: var(--color-primary-dark-blue);
+    background-color: transparent;
+}
